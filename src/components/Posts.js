@@ -6,8 +6,8 @@ import "./styles/styles.css";
 
 const posts = ({posts, loading}) => {
 
-    const [searchTerm, setSearchTerm] = useState("");
-    const [searchResults, setSearchResults] = useState(posts);
+    const [searchTerm, setSearchTerm]=useState("");
+    const [searchResults, setSearchResults]=useState(posts);
     const handleChange = event => {
        setSearchTerm(event.target.value);
      };
@@ -32,8 +32,8 @@ const posts = ({posts, loading}) => {
 
     return(
        <div>
-        <input
-        clasName = "form-group col-12"
+        <input 
+        clasName="form-group col-12"
         type="text"
         placeholder="Search"
         value={searchTerm}

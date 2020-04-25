@@ -37,8 +37,6 @@ const App = () => {
     setError(false);
     console.log(github)
     
-
-    
   }
 
   
