@@ -3,27 +3,16 @@ import React from 'react';
 const Nadvar = ({posts}) => {
 
     return(
-        <div>
+        <div  >
+            <div className="hero">
+
+            </div>
+            <div className="hero-cabecera">
+                <h3>Busqueda de repositorios Github</h3>
+            </div>
             
-            <div>Gusqueda de repositorios Github</div>
 
-            {/* {posts.map(posts =>(
-            
-        <ul> */}
-
-        {/* </ul>
-            <li  key={posts.id} >
-                    <  >
-                    <td >{posts.name} </td>
-                
-                    
-                </li>
-                
-                </div>
-        
-                    
-                )) } */}
-
+           
     
         </div>
     )

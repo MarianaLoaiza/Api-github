@@ -32,17 +32,29 @@ const posts = ({posts, loading}) => {
 
     return(
        <div>
-        <input 
-        clasName="form-group col-12"
-        type="text"
-        placeholder="Search"
-        value={searchTerm}
-        onChange={e => {
-            e.preventDefault();
-            setSearchTerm(e.target.value);
-          }}
-      />
+           <br></br>
 
+<form className="form-column col-12 d-flex justify-content-center">
+                   <div className="form-colum col-6 ">
+                
+                   <div class="form-group col-12  " >
+                   
+                       
+                        <input
+                         type="text"
+                        className="form-control" 
+                        placeholder="Search"
+                    value={searchTerm}
+                    onChange={e => {
+                    e.preventDefault();
+                    setSearchTerm(e.target.value);
+                }}
+      />
+                    </div>
+                    </div>
+                    </form>
+                    
+      
 {/* {searchResults.map(posts => (
           <li>{posts.name}</li>
         ))}

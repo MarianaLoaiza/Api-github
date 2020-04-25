@@ -115,6 +115,7 @@ import React, {useState} from 'react';
                         />
                     </div>
                     <button
+                     style={{margintop: "15px "}}
                      type="submit"
                      
                      className="btn btn-primary col-12">Submit</button>
