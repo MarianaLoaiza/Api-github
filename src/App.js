@@ -8,7 +8,7 @@ import Form from './components/Form'
 import Error from './components/Error'
 import Nadvar from './components/Nadvar'
 import axios from "axios";
-import Cookies from 'js-cookie';
+
 
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
   const [github, setGithub] = useState('');
   const [error, setError] = useState(false);
 
-  const [name, setName] = Cookies.get("nombre", "Stefan");
+ 
     
 
      
@@ -36,7 +36,7 @@ const App = () => {
     setGithub(datos.github);
     setError(false);
     console.log(github)
-    setName(datos.github)
+    
 
     
   }

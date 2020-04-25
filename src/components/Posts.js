@@ -32,7 +32,8 @@ const posts = ({posts, loading}) => {
 
     return(
        <div>
-              <input
+        <input
+        clasName = "form-group col-12"
         type="text"
         placeholder="Search"
         value={searchTerm}
