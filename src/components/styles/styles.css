@@ -1,0 +1,8 @@
+.tableItems{
+    width: 100%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    border: 1px solid black;
+
+}
